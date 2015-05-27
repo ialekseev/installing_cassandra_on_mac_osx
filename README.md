@@ -17,7 +17,7 @@ pip install cql
 brew install cassandra
 ```
 *Starting/Stopping Cassandra:*
-Probably it's better NOT to start Cassandra on startup (using plist file from ~/Library/LaunchAgents/). Instead we just start/stop it when needed:
+Probably it's better NOT to start Cassandra on startup (using plist file from ~/Library/LaunchAgents/). Instead we just start/stop it when it's needed:
 ```
 launchctl load /usr/local/opt/cassandra/homebrew.mxcl.cassandra.plist
 launchctl unload /usr/local/opt/cassandra/homebrew.mxcl.cassandra.plist
